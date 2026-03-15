@@ -1,0 +1,103 @@
+      /* Hero Section */
+      .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #1565c0, #4caf50);
+        color: #fff;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      .hero p {
+        font-size: 1.2rem;
+      }
+
+      /* Section Styling */
+      .section {
+        padding: 50px 20px;
+        margin-bottom: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .section h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        color: #333;
+      }
+      .section p {
+        line-height: 1.8;
+        font-size: 1.1rem;
+        color: #555;
+        text-align: justify;
+        margin-bottom: 20px;
+        padding: 0 10px;
+      }
+      .section ul {
+        line-height: 1.8;
+        font-size: 1.1rem;
+        color: #555;
+        padding-left: 20px;
+      }
+
+      /* Contact Icons */
+      .contact-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      .contact-icons a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1rem;
+      }
+      .contact-icons img {
+        width: 30px;
+        height: 30px;
+      }
+
+      /* Footer */
+      footer {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+      }
+      footer hr {
+        border-color: #fff;
+        margin-bottom: 20px;
+      }
+
+      /* Navbar */
+      .navbar {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, #4caf50, #1565c0);
+        color: #fff;
+      }
+      .navbar a {
+        color: #fff !important;
+      }
+
+      /* Buttons */
+      .btn-primary {
+        background-color: #1565c0;
+        border-color: #1565c0;
+      }
+      .btn-primary:hover {
+        background-color: #4caf50;
+        border-color: #4caf50;
+      }

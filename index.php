@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #f4f4f4; color: #333; font-size: 16px; font-family: 'Eczar', serif;" id="theme">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinotenda R228827P| Bioinformatician, Zimbabwe</title>
+    <link href="bootstrap/bootstrap.css" rel="stylesheet"/>
+    <link href="bootstrap/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="light">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tinotenda Marlon Makwara R228827P</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.php">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#academics">Academic Certificates</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <!-- Light/Dark Mode Toggle -->
+          <button id="themeToggle" class="btn btn-outline-secondary">Dark Mode</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+      <img src="images/image.jpg" alt="Profile Image" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+      <div>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, my name is up there, i am a Bioinformatician based in Zimbabwe.</p>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+    <section id="biography">
+    <h2>Biography</h2>
+    <p>I am a passionate and driven bioinformatics undergraduate in my 4th year at Midlands State University, Zimbabwe. My academic journey has been enriched by a 3rd-year internship at Medicare Clinical Laboratories in Harare, where I gained hands-on experience in clinical diagnostics and laboratory operations.</p>
+    <p>With a strong foundation in computational tools and programming, I am proficient in <strong>R</strong>, <strong>Python</strong>, <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>PHP</strong>, and database management using <strong>MySQL</strong>. I also have expertise in server management with <strong>XAMPP</strong> and drug design using tools such as <strong>Avogadro</strong>, <strong>Open Babel</strong>, <strong>Schrödinger</strong>, <strong>MGL Tools</strong>, <strong>AutoDock</strong>, and <strong>AutoDock Vina</strong>.</p>
+    </section>
+
+    <section id="mission">
+    <h2>Mission</h2>
+    <p>I am committed to leveraging computational methods and machine learning to advance clinical diagnostics and improve patient outcomes. My focus is on applying innovative bioinformatics solutions to address challenges in healthcare, particularly in cancer diagnostics.</p>
+    </section>
+
+    <section id="skills-expertise">
+    <h2>Skills and Expertise</h2>
+    <ul>
+        <li><strong>Programming and Data Analysis:</strong> Proficient in R, Python, and database management with MySQL.</li>
+        <li><strong>Web Development:</strong> Skilled in HTML, JavaScript, and PHP for building dynamic and interactive web applications.</li>
+        <li><strong>Drug Design:</strong> Experienced in computational drug design using tools like Avogadro, Open Babel, Schrödinger, and AutoDock.</li>
+        <li><strong>Server Management:</strong> Expertise in managing local servers with XAMPP.</li>
+        <li><strong>Machine Learning:</strong> Focused on applying ML techniques to clinical diagnostics, particularly in cancer research.</li>
+    </ul>
+    </section>
+
+    <section id="interests">
+    <h2>Interests</h2>
+    <ul>
+        <li>Machine learning applications in clinical diagnostics</li>
+        <li>Computational drug design</li>
+        <li>Multiomic data integration</li>
+        <li>Advancing cancer diagnostics through innovative technologies</li>
+    </ul>
+    </section>
+
+    <section id="education">
+    <h2>Education</h2>
+    <p><strong>BSc in Bioinformatics (Expected 2025)</strong><br>Midlands State University, Zimbabwe</p>
+    <p><strong>Advanced Level (A-Level) Certificate (2019)</strong><br>Zimbabwe School Examinations Council</p>
+    <p><strong>Ordinary Level (O-Level) Certificate (2016)</strong><br>Zimbabwe School Examinations Council</p>
+    </section>
+
+    <section id="vision">
+    <h2>Vision</h2>
+    <p>I aspire to contribute to the field of bioinformatics by developing cutting-edge computational tools and machine learning models that can transform clinical diagnostics and improve healthcare outcomes. My ultimate goal is to bridge the gap between computational biology and clinical practice, enabling better decision-making in medical research and diagnostics.</p>
+    </section>
+    </div>
+
+    <div id="academics" class="section">
+      <h2>Academic Certificates</h2>
+      <div id="certificatesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/alevelcertificate.jpg" class="d-block w-100" alt="Certificate 1" style="max-height: 500px; object-fit: contain;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">A-Level Certificate</h5>
+              <p style="color: black;">Issued by Cambridge International Examinations.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/olevelcertificate.jpg" class="d-block w-100" alt="Certificate 2" style="max-height: 500px; object-fit: contain;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">O-Level Certificate</h5>
+              <p style="color: black;">Issued by ZIMSEC (Zimbabwe School Examinations Council).</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/driverslicence.jpg" class="d-block w-100" alt="Certificate 3" style="max-height: 500px; object-fit: contain;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Driver's License</h5>
+              <p style="color: black;">Issued by the Zimbabwe Traffic Authority.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="projects" class="section">
+      <h2>Projects</h2>
+      <section id="research-projects">
+        <p>Currently, I am working on my final-year project, which explores the <strong>applications of machine learning in prostate cancer diagnosis</strong>. The goal of this research is to reduce unnecessary biopsies by improving diagnostic accuracy. This builds on my 3rd-year project, where I conducted a clinical study on prostate cancer screening using PSA (Prostate-Specific Antigen) and investigated how isoPSA can enhance diagnostic precision.</p>
+        </section>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-icons">
+        <a href="mailto:makwaratinotenda16@gmail.com">
+          <i class="fas fa-envelope"></i> makwaratinotenda16@gmail.com
+        </a>
+        <a href="tel:+263776919515">
+          <i class="fas fa-phone"></i> +263 776 919 515
+        </a>
+        <a href="https://www.linkedin.com/in/marlon-makwara-308730281" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://www.google.com/maps/place/Gweru/@-19.4553398,29.6504089,48883m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1934949a6ca1c7ad:0x7925dad5634bafd3!8m2!3d-19.4656559!4d29.8124125!16zL20vMDM3MTZ0?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> Gweru, Zimbabwe
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <hr>
+      <p>&copy; 2023 Tinotenda Marlon Makwara. All rights reserved.</p>
+      <p>Designed with visual studio code<span style="color: red;">&hearts;</span> by Tinotenda</p>
+    </footer>
+
+    <!-- Collaborator Form -->
+    <div id="collaborate" class="section">
+      <h2>Collaborate with Me</h2>
+      <form action="" method="POST" style="max-width: 600px; margin: 0 auto;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <?php
+    // Database connection
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "my_cv";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password);
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Create database and table if not exists
+    $conn->query("CREATE DATABASE IF NOT EXISTS $dbname");
+    $conn->select_db($dbname);
+    $conn->query("
+        CREATE TABLE IF NOT EXISTS collaborators (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL,
+            message TEXT NOT NULL,
+            submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    ");
+
+    // Handle form submission
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = $conn->real_escape_string($_POST['name']);
+        $email = $conn->real_escape_string($_POST['email']);
+        $message = $conn->real_escape_string($_POST['message']);
+
+        $sql = "INSERT INTO collaborators (name, email, message) VALUES ('$name', '$email', '$message')";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "<p style='text-align: center; color: green;'>Thank you for reaching out! Your message has been received.</p>";
+        } else {
+            echo "<p style='text-align: center; color: red;'>Error: " . $sql . "<br>" . $conn->error . "</p>";
+        }
+    }
+
+    $conn->close();
+    ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Light/Dark Mode Toggle Script
+      const themeToggle = document.getElementById('themeToggle');
+      const body = document.body;
+      const navbar = document.querySelector('.navbar');
+
+      themeToggle.addEventListener('click', () => {
+        if (body.classList.contains('light')) {
+          body.classList.replace('light', 'dark');
+          navbar.classList.replace('navbar-light', 'navbar-dark');
+          themeToggle.textContent = 'Light Mode';
+        } else {
+          body.classList.replace('dark', 'light');
+          navbar.classList.replace('navbar-dark', 'navbar-light');
+          themeToggle.textContent = 'Dark Mode';
+        }
+      });
+    </script>
+  </body>
+</html>
